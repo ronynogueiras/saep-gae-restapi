@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Saep_API</servlet-name>
+		<servlet-class>br.ufg.ronynogueiras.saep.Saep_APIServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Saep_API</servlet-name>
+		<url-pattern>/saep_api</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>status</servlet-name>
+		<servlet-class>controller.Status</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>status</servlet-name>
+		<url-pattern>/status</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>resolutions</servlet-name>
+		<servlet-class>controller.Resolutions</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>resolutions</servlet-name>
+		<url-pattern>/resolucoes</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>resolution</servlet-name>
+		<servlet-class>controller.Resolution</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>resolution</servlet-name>
+		<url-pattern>/resolucao/*</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
