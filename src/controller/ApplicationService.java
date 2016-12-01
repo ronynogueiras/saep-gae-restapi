@@ -81,4 +81,9 @@ public class ApplicationService implements SaepApplicationServiceLayer {
 		return new Random().nextInt() % 2 == 0;
 	}
 
+	@Override
+	public boolean createResolution(String uuid, String resolution) {
+		return (uuid != null && resolution != null);
+	}
+
 }

@@ -4,6 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.HashMap;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -57,15 +58,44 @@ public class Resolution extends HttpServlet{
 		}		
 	}
 	/**
-	 * 
-	 * 
+	 * Cria uma nova resolução a partir do UUID fornecido e a resolução
+	 * @author Rony Nogueira
+	 * @see {http://docs.saep.apiary.io/#reference/0/saepresolucaoid/post}
+	 * @param HttpServletRequest 
+	 * @param HttpServletResponse 
+	 * @throws ServletException
+	 * @throws IOException
 	 * */
 	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException{
-		
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException{
+		String resolution = request.getParameter("resolucao");
+		String uuid = request.getPathInfo();
+		boolean isCreate = application.createResolution(uuid,resolution);
+		String responseText = "";
+		int status;
+		if(isCreate){
+			status = ContentStatus.NO_CONTENT;
+		}else{
+			JSONObject json = new JSONObject();
+			try{
+				json.put("codigo", 9471169);
+				json.put("mensagem", "erro inesperado");
+				responseText = json.toString();
+				status = ContentStatus.SERVER_ERROR;
+			}catch(JSONException e){
+				status = ContentStatus.SERVER_ERROR;
+				responseText = "erro inesperado";
+			}
+		}
+		response.setStatus(status);
+		response.setContentType(ContentType.JSON);
+		response.setContentLength(responseText.length());
+		response.getWriter().write(responseText);
 	}
 	/**
-	 *  
+	 * Apaga uma resolução que possui o UUID fornecido
+	 * @author Rony Nogueira
+	 * @see { http://docs.saep.apiary.io/#reference/0/saepresolucaoid/delete }
 	 * @throws ServletException
 	 * @throws IOException
 	 * */
