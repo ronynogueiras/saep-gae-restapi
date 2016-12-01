@@ -59,4 +59,11 @@ public interface SaepApplicationServiceLayer {
      * @return String
      * */
     String getIdsResolutions();
+    /**
+     * Cria uma nova resolução através do uuid informado
+     * @param String uuid  
+     * @param String resolution
+     * @return boolean
+     * */
+    boolean createResolution(String uuid, String resolution);
 }
