@@ -96,4 +96,13 @@ public class ApplicationService implements SaepApplicationServiceLayer {
 		return new Random().nextInt() % 2 == 0;
 	}
 
+	@Override
+	public String getChangesDocument(String uuid) {
+		String changes = null;
+		if(uuid.contains("id")){
+			changes = "Lorem ipsum dolor sit amet, consectetur cras amet.";
+		}
+		return changes;
+	}
+
 }
