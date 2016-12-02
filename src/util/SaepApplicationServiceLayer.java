@@ -39,10 +39,22 @@ public interface SaepApplicationServiceLayer {
      * */
     InputStream getReportHTML();
     /**
+     * Cria um relatório (RADOC) através do UUID fornecido
+     * @author Rony Nogueira
+     * @return boolean
+     * */
+    boolean createReport(String uuid, String report);
+    /**
+     * Apaga um relatório (RADOC) através do UUID fornecido
+     * @author Rony Nogueira
+     * @return boolean
+     * */
+    boolean deleteReport(String uuid);
+    /**
      * Obtem uma resolução a partir de um UUID
      * @return InputStream
      * @throws IOException 
-     * */
+     * */    
     InputStream getResolution(String uuid) throws IOException;
     /**
      * Obtem o status de operação do servidor de aplicação SAEP
