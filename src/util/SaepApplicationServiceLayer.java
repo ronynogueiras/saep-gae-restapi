@@ -78,4 +78,10 @@ public interface SaepApplicationServiceLayer {
      * @return boolean
      * */
     boolean createResolution(String uuid, String resolution);
+    /**
+     * Obtem as alterações realizadas para um dado parecer
+     * @author Rony Nogueira
+     * @return String
+     * */
+    String getChangesDocument(String uuid);
 }
