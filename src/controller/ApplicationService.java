@@ -105,4 +105,14 @@ public class ApplicationService implements SaepApplicationServiceLayer {
 		return changes;
 	}
 
+	@Override
+	public boolean createDocument(String uuid,String document) {
+		return (uuid != null && document != null);
+	}
+
+	@Override
+	public boolean deleteDocument(String uuid) {
+		return new Random().nextInt() % 3 == 0;
+	}
+
 }

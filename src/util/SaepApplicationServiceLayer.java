@@ -29,6 +29,21 @@ public interface SaepApplicationServiceLayer {
      * */
     InputStream getDocumentHTML();
     /**
+     * Cria um parecer com o UUID fornecido
+     * @author Rony Nogueira
+     * @param String uuid
+     * @param String document
+     * @return boolean
+     * */
+    boolean createDocument(String uuid,String document);
+    /**
+     * Apaga um parecer que possui o UUID fornecido
+     * @author Rony Nogueira
+     * @param String uuid
+     * @return boolean
+     * */
+    boolean deleteDocument(String uuid);
+    /**
      * Obtem um relatório (RADOC) em PDF
      * @return InputStream
      * */
@@ -41,18 +56,22 @@ public interface SaepApplicationServiceLayer {
     /**
      * Cria um relatório (RADOC) através do UUID fornecido
      * @author Rony Nogueira
+     * @param String uuid
+     * @param String report
      * @return boolean
      * */
     boolean createReport(String uuid, String report);
     /**
      * Apaga um relatório (RADOC) através do UUID fornecido
      * @author Rony Nogueira
+     * @param String uuid
      * @return boolean
      * */
     boolean deleteReport(String uuid);
     /**
      * Obtem uma resolução a partir de um UUID
      * @return InputStream
+     * @param string uuid
      * @throws IOException 
      * */    
     InputStream getResolution(String uuid) throws IOException;
@@ -63,6 +82,8 @@ public interface SaepApplicationServiceLayer {
     int status();
     /**
      * Apaga uma resolução que possui o UUID informado
+     * @author Rony Nogueira
+     * @param String uuid
      * @return boolean 
      * */
     boolean deleteResolution(String uuid);    
@@ -81,6 +102,7 @@ public interface SaepApplicationServiceLayer {
     /**
      * Obtem as alterações realizadas para um dado parecer
      * @author Rony Nogueira
+     * @param String uuid
      * @return String
      * */
     String getChangesDocument(String uuid);
