@@ -42,8 +42,8 @@ public class ApplicationService implements SaepApplicationServiceLayer {
 
 	@Override
 	public InputStream getReportHTML() {
-		// TODO Auto-generated method stub
-		return null;
+		InputStream htmlStream = new ByteArrayInputStream("<h1>RADOC Teste HTML</h1>".getBytes());
+		return htmlStream;
 	}
 
 	@Override
@@ -84,6 +84,16 @@ public class ApplicationService implements SaepApplicationServiceLayer {
 	@Override
 	public boolean createResolution(String uuid, String resolution) {
 		return (uuid != null && resolution != null);
+	}
+
+	@Override
+	public boolean createReport(String uuid, String report) {
+		return (uuid != null && report != null);
+	}
+
+	@Override
+	public boolean deleteReport(String uuid) {
+		return new Random().nextInt() % 2 == 0;
 	}
 
 }
