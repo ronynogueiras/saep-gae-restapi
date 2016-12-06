@@ -39,7 +39,30 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>resolution</servlet-name>
 		<url-pattern>/resolucao/*</url-pattern>
 	</servlet-mapping>
-	
+	<servlet>
+		<servlet-name>changes</servlet-name>
+		<servlet-class>controller.Changes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>changes</servlet-name>
+		<url-pattern>/alteracoes/*</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>radoc</servlet-name>
+		<servlet-class>controller.Radoc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>radoc</servlet-name>
+		<url-pattern>/radoc/*</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>documentSeem</servlet-name>
+		<servlet-class>controller.DocumentSeem</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>documentSeem</servlet-name>
+		<url-pattern>/parecer/*</url-pattern>
+	</servlet-mapping>	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
