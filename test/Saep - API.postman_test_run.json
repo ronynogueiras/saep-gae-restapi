@@ -1,0 +1,743 @@
+{
+	"id": "fa545597-c646-4ebd-9573-d2207bbccc0b",
+	"name": "Saep - API",
+	"allTests": [],
+	"timestamp": "2016-12-06T02:09:15.377Z",
+	"collection_id": "09d7c40a-bd1c-496d-12d7-319db3298547",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "no-environment",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "09d7c40a-bd1c-496d-12d7-319db3298547",
+		"name": "Saep - API",
+		"description": "Coleção para realização de testes em API Rest utilizando Google App Engine (JAVA)",
+		"order": [
+			"e0de61e1-a65e-d512-fd74-066e59faea5c",
+			"6395c1bd-d8a4-adaf-8271-14b56f7f1ba6",
+			"97ce8e51-6dca-3f98-1de5-0a3a3e1fffc1"
+		],
+		"folders": [
+			{
+				"id": "0b6f606a-2533-f3f7-0734-6da220e30cde",
+				"name": "Parecer",
+				"description": "Testes para PARECER.",
+				"write": true,
+				"order": [
+					"bd298fdc-c2ac-074d-7615-10970985e880",
+					"5328cc62-c0c6-c1b3-a1a8-64271a6736fa",
+					"0671c7a6-1e89-f8eb-343a-316dd95e4be0"
+				],
+				"collection": "09d7c40a-bd1c-496d-12d7-319db3298547",
+				"owner": "1060559",
+				"collection_id": "09d7c40a-bd1c-496d-12d7-319db3298547"
+			},
+			{
+				"id": "6154b444-8fee-1ad6-5926-3fcbec269201",
+				"name": "Radoc",
+				"description": "Testes para RADOC",
+				"write": true,
+				"order": [
+					"573cfb2c-ce8c-2726-93c0-c1d40d89701a",
+					"e3dced42-a62a-8293-94b3-a8ad8356edc1",
+					"a7602207-6848-1a12-4054-34465fbb7310"
+				],
+				"collection": "09d7c40a-bd1c-496d-12d7-319db3298547",
+				"owner": "1060559",
+				"collection_id": "09d7c40a-bd1c-496d-12d7-319db3298547"
+			},
+			{
+				"id": "f35c1326-9d16-cb50-3f03-df721084bf27",
+				"name": "Resolução",
+				"description": "Testes para resolução.",
+				"write": true,
+				"order": [
+					"0343529c-9ec0-b5c7-118d-26a34460758f",
+					"d74d9d0c-8279-efa0-64bc-166341ce35af",
+					"841270ce-8ad1-a157-d244-6484da55b845"
+				],
+				"collection": "09d7c40a-bd1c-496d-12d7-319db3298547",
+				"owner": "1060559",
+				"collection_id": "09d7c40a-bd1c-496d-12d7-319db3298547"
+			}
+		],
+		"timestamp": 1480983596964,
+		"synced": false,
+		"remote_id": 0,
+		"owner": "1060559",
+		"sharedWithTeam": false,
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1480983596964,
+		"updatedAt": 1480988888720,
+		"write": true,
+		"published": false,
+		"favorite": true,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Parecer",
+			"id": "bd298fdc-c2ac-074d-7615-10970985e880",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/parecer/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {
+				"Status code is 501": true
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"259"
+			],
+			"allTests": [
+				{
+					"Status code is 501": true
+				}
+			],
+			"time": "259",
+			"totalRequestTime": "259",
+			"iterationResults": {}
+		},
+		{
+			"name": "Parecer",
+			"id": "5328cc62-c0c6-c1b3-a1a8-64271a6736fa",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/parecer/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {
+				"Status code is 501": true
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"276"
+			],
+			"allTests": [
+				{
+					"Status code is 501": true
+				}
+			],
+			"time": "276",
+			"totalRequestTime": "276",
+			"iterationResults": {}
+		},
+		{
+			"name": "Parecer",
+			"id": "0671c7a6-1e89-f8eb-343a-316dd95e4be0",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/parecer/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {
+				"Status code is 501": true
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"279"
+			],
+			"allTests": [
+				{
+					"Status code is 501": true
+				}
+			],
+			"time": "279",
+			"totalRequestTime": "279",
+			"iterationResults": {}
+		},
+		{
+			"name": "Radoc",
+			"id": "573cfb2c-ce8c-2726-93c0-c1d40d89701a",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/radoc/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"267"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "267",
+			"totalRequestTime": "267",
+			"iterationResults": {}
+		},
+		{
+			"name": "Radoc",
+			"id": "e3dced42-a62a-8293-94b3-a8ad8356edc1",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/radoc/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {
+				"Status code is 501": true
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"295"
+			],
+			"allTests": [
+				{
+					"Status code is 501": true
+				}
+			],
+			"time": "295",
+			"totalRequestTime": "295",
+			"iterationResults": {}
+		},
+		{
+			"name": "Radoc",
+			"id": "a7602207-6848-1a12-4054-34465fbb7310",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/radoc/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {
+				"Status code is 204": false
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"296"
+			],
+			"allTests": [
+				{
+					"Status code is 204": false
+				}
+			],
+			"time": "296",
+			"totalRequestTime": "296",
+			"iterationResults": {}
+		},
+		{
+			"name": "Resolução",
+			"id": "0343529c-9ec0-b5c7-118d-26a34460758f",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucao/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {
+				"Status code is 501": true
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"302"
+			],
+			"allTests": [
+				{
+					"Status code is 501": true
+				}
+			],
+			"time": "302",
+			"totalRequestTime": "302",
+			"iterationResults": {}
+		},
+		{
+			"name": "Resolução",
+			"id": "d74d9d0c-8279-efa0-64bc-166341ce35af",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucao/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"287"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "287",
+			"totalRequestTime": "287",
+			"iterationResults": {}
+		},
+		{
+			"name": "Resolução",
+			"id": "841270ce-8ad1-a157-d244-6484da55b845",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucao/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"288"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "288",
+			"totalRequestTime": "288",
+			"iterationResults": {}
+		},
+		{
+			"name": "Status",
+			"id": "e0de61e1-a65e-d512-fd74-066e59faea5c",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/status",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"334"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "334",
+			"totalRequestTime": "334",
+			"iterationResults": {}
+		},
+		{
+			"name": "Alterações",
+			"id": "6395c1bd-d8a4-adaf-8271-14b56f7f1ba6",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/alteracoes/123",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"299"
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			],
+			"time": "299",
+			"totalRequestTime": "299",
+			"iterationResults": {}
+		},
+		{
+			"name": "Resoluções",
+			"id": "97ce8e51-6dca-3f98-1de5-0a3a3e1fffc1",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucoes",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"292"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "292",
+			"totalRequestTime": "292",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 10,
+	"totalFail": 2,
+	"totalTime": "00259276279267295296302287288334299292",
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Parecer",
+			"id": "bd298fdc-c2ac-074d-7615-10970985e880",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/parecer/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Parecer",
+			"id": "5328cc62-c0c6-c1b3-a1a8-64271a6736fa",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/parecer/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Parecer",
+			"id": "0671c7a6-1e89-f8eb-343a-316dd95e4be0",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/parecer/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Radoc",
+			"id": "573cfb2c-ce8c-2726-93c0-c1d40d89701a",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/radoc/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Radoc",
+			"id": "e3dced42-a62a-8293-94b3-a8ad8356edc1",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/radoc/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Radoc",
+			"id": "a7602207-6848-1a12-4054-34465fbb7310",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/radoc/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Resolução",
+			"id": "0343529c-9ec0-b5c7-118d-26a34460758f",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucao/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 501": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Resolução",
+			"id": "d74d9d0c-8279-efa0-64bc-166341ce35af",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucao/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Resolução",
+			"id": "841270ce-8ad1-a157-d244-6484da55b845",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucao/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Status",
+			"id": "e0de61e1-a65e-d512-fd74-066e59faea5c",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/status",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Alterações",
+			"id": "6395c1bd-d8a4-adaf-8271-14b56f7f1ba6",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/alteracoes/123",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 501,
+				"name": "Not Implemented",
+				"detail": {
+					"name": "Not Implemented",
+					"detail": "The server either does not recognise the request method, or it lacks the ability to fulfill the request."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Resoluções",
+			"id": "97ce8e51-6dca-3f98-1de5-0a3a3e1fffc1",
+			"url": "https://1-dot-api-saep-ufg.appspot.com/resolucoes",
+			"time": "2016-12-06T02:09:08.531Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
