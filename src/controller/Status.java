@@ -18,6 +18,7 @@ public class Status extends HttpServlet {
 	 * @throws ServletException
 	 * @throws IOException 
 	 * */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		ApplicationService application = new ApplicationService();
@@ -32,10 +33,10 @@ public class Status extends HttpServlet {
 				responseText = "";
 			break;
 			case 501:
-				responseText = "{message: \"Erro inesperado\"}";
+				responseText = "{\"message\": \"Erro inesperado\"}";
 			break;
 			default:
-				responseText = "{message: \"Erro inesperado\"}";
+				responseText = "{\"message\": \"Erro inesperado\"}";
 			break;
 		}
 		response.setContentLength(responseText.length());

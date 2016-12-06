@@ -33,6 +33,7 @@ public class Radoc extends HttpServlet {
 	 * @throws ServletException
 	 * @throws IOException
 	 * */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException{
 		//No-used
 		String uuid = request.getPathInfo();
@@ -78,6 +79,7 @@ public class Radoc extends HttpServlet {
 	/**
 	 * 
 	 * */
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		String report = request.getParameter("resolucao");
 		String uuid = request.getPathInfo();
@@ -112,6 +114,7 @@ public class Radoc extends HttpServlet {
 	 * @throws ServletException
 	 * @throws IOException
 	 * */
+	@Override
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		String uuid = request.getPathInfo();
 		String responseText="";

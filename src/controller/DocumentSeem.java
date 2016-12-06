@@ -32,6 +32,7 @@ private ApplicationService application = new ApplicationService();
 	 * @throws ServletException
 	 * @throws IOException
 	 * */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException{
 		//No-used
 		String uuid = request.getPathInfo();
@@ -81,6 +82,7 @@ private ApplicationService application = new ApplicationService();
 	 * @param HttpServletRequest
 	 * @param HttpServletResponse
 	 * */
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		String report = request.getParameter("resolucao");
 		String uuid = request.getPathInfo();
@@ -115,6 +117,7 @@ private ApplicationService application = new ApplicationService();
 	 * @throws ServletException
 	 * @throws IOException
 	 * */
+	@Override
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		String uuid = request.getPathInfo();
 		String responseText="";

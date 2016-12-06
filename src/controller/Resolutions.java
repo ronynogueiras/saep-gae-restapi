@@ -24,6 +24,7 @@ public class Resolutions extends HttpServlet {
 	 * @param HttpServletResponse
 	 * @throws ServletException, IOException, JSONException
 	 * */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		ApplicationService application = new ApplicationService();
 		String resolutionIds = application.getIdsResolutions();

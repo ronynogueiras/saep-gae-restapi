@@ -24,6 +24,7 @@ public class Changes extends HttpServlet {
 	 * @throws ServletException
 	 * @throws IOException 
 	 * */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		String uuid = request.getPathInfo();
 		ApplicationService application = new ApplicationService();
